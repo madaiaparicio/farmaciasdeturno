@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100px;
+    box-sizing: border-box;
+}
+.
+.encabezado {
+ width: 100%;
+ height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+    p{
+        margin-bottom: 40px;
+        font-size: 60px;
+        color: rgb(0, 0, 0);
+        
+ }
+    .btn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: contents;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 16px;
+     padding: 5px 10px;
+     border: 2px solid rgb(194, 73, 194);
+     color: #f5f1f3;
+     text-decoration: none;
+     background: rgb(194, 73, 194);
+
+    }
+    .btn:hover{
+        background: none;
+        color:  rgb(18, 18, 18);
+    }    
+    .btn-home a{
+        margin: 0 20px;
+    }
+
+    #hero{
+        min-height: 100vh;
+        position: relative;
+    }
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:100% ;
+        object-fit: cover;
+
+    }
+    .capa{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f5f1f3;
+        opacity: 0.5;
+        mix-blend-mode: overlay;
+    }
+
+    .promo{
+        padding-top: 350px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 60% ;
+        margin:auto ;
+        position: relative;
+        z-index: 2;
+
+
+    }
+
+
+    
+    
